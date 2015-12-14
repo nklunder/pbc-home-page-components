@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Homepage Components</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style-pbc.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="home">
+  <div id="main-container">
+    <header id="header">
+      <div class="row">
+        <div class="col-xs-12">
+          <a href="/" id="logo" title="Go to home"></a>
+          <a href="/" id="nationalAccount"></a>
+          <div>
+            <div class="dropdown pull-right" id="navigation-user">
+              <div class="btn-group pull-right">
+                <a class="btn btn-default dropdown-toggle" href="#" data-toggle="dropdown">Log In <span class="caret"></span>        </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a title="I have a Premera Health Plan" href="/portals/Member/Information/Myaccount/">
+                      <strong>Member</strong>
+                      <br>
+                      <small>I have a Premera Health Plan</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="I have a Medicare Advantage Plan" href="https://medadvantage.healthtrioconnect.com" target="_blank" onclick="trackOutboundLink('https://medadvantage.healthtrioconnect.com/');null">
+                      <strong>Medicare Advantage Member</strong>
+                      <br>
+                      <small>I have a Medicare Advantage Plan</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="I have a Medicare Supplement Plan" href="/portals/member/information/myaccount">
+                      <strong>Medicare Supplement Member</strong>
+                      <br>
+                      <small>I have a Medicare Supplement Plan</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="I offer Premera coverage to employees" href="/portals/employer/messageCenter.aspx">
+                      <strong>Employer</strong>
+                      <br>
+                      <small>I offer Premera coverage to employees</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="I represent Premera plans" href="/portals/producer/dashboard/index">
+                      <strong>Producer</strong>
+                      <br>
+                      <small>I represent Premera plans</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="I am a healthcare professional" href="/portals/provider/mypremera.aspx">
+                      <strong>Provider</strong>
+                      <br>
+                      <small>I'm a healthcare professional</small>
+                    </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="//account.premera.com/account/premera/visitor/Account/Create?Target=https://www.Premera.com/Portals/Member/Information/Myaccount/">Create Account</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a title="Make bill payments online" href="https://payments.bankofamerica.com/epaybill/StartAction.do?premera" target="_blank" onclick="trackOutboundLink('https://payments.bankofamerica.com/epaybill/StartAction.do?premera');null">
+                      <strong>Pay My Bill</strong>
+                      <br>
+                      <small>For members only</small>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <nav id="navigation-primary" class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-primary-collapse" id="menu">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop for Plans<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Individual and Family Plans</li>
+                <li><a href="/wa/visitor/shop-for-plans/individual-and-family-plans/health-plans/">Health Plans</a></li>
+                <li><a href="/wa/visitor/shop-for-plans/individual-and-family-plans/dental-plans/">Dental Plans</a></li>
+                <li><a href="/wa/visitor/shop-for-plans/individual-and-family-plans/subsidies-and-tax-credits/">Subsidies and Tax Credits</a></li>
+                <li><a href="/wa/visitor/shop-for-plans/individual-and-family-plans/affordable-care-act-simplified/">The Affordable Care Act Simplified</a></li>
+                <li class="nav-header">Eligible for Medicare?</li>
+                <li><a href="/wa/visitor/shop-for-plans/eligible-for-medicare/medicare-basics/">Medicare Basics</a></li>
+                <li><a href="/medicare-advantage/">Medicare Advantage Plans</a></li>
+                <li><a href="/wa/medicare-supplement/">Medicare Supplement Plans</a></li>
+                <li><a href="/wa/visitor/shop-for-plans/eligible-for-medicare/senior-discounts/">Senior Discounts</a></li>
+                <li class="nav-header">Employer Group Plans</li>
+                <li><a href="/wa/visitor/shop-for-plans/employer-offered-health-plans/small-group-plans/about-small-group-plans/">Small Group Plans 1-50 Employees</a></li>
+                <li><a href="/wa/visitor/shop-for-plans/employer-offered-health-plans/large-group-plans/about-large-group-plans/">Large Group Plans 51+ Employees</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Find a Doctor<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/wa/visitor/find-a-doctor/doctor-dentists-and-more/">Find a Doctor, Dentist and More</a></li>
+                <li><a href="/wa/visitor/find-a-doctor/24-hour-nurseline/">24-Hour NurseLine</a></li>
+                <li><a href="/wa/visitor/find-a-doctor/in-network-care/">In-Network Care</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pharmacy<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Understanding Your Benefits</li>
+                <li><a href="/wa/visitor/pharmacy/understanding-your-benefits/about-pharmacy/">About Pharmacy</a></li>
+                <li><a href="/wa/visitor/pharmacy/understanding-your-benefits/pharmacy-benefit-guide/">Pharmacy Benefit Guide</a></li>
+                <li><a href="/wa/visitor/pharmacy/understanding-your-benefits/drugs-requiring-approval/">Drugs Requiring Approval</a></li>
+                <li><a href="/wa/visitor/pharmacy/understanding-your-benefits/pharmacy-glossary/">Glossary</a></li>
+                <li class="nav-header">Drug Search</li>
+                <li><a href="/wa/visitor/pharmacy/drug-search/rx-search/">Rx Search</a></li>
+                <li><a href="/wa/visitor/pharmacy/drug-search/upcoming-formulary-changes/">Drug List Changes</a></li>
+                <li class="nav-header">Pharmacy Services</li>
+                <li><a href="/wa/visitor/pharmacy/pharmacy-services/mail-order-prescriptions/">Mail Order Prescriptions</a></li>
+                <li><a href="/wa/visitor/pharmacy/pharmacy-services/specialty-pharmacy/">Specialty Pharmacy</a></li>
+                <li><a href="/wa/visitor/pharmacy/pharmacy-services/multiple-medications-safety/">Multiple Medications Safety</a></li>
+                <li class="nav-header">Prescription Savings</li>
+                <li><a href="/wa/visitor/pharmacy/prescription-savings/controlling-costs/">Controlling Costs</a></li>
+                <li><a href="/wa/visitor/pharmacy/prescription-savings/save-money-with-generics/">Save Money with Generics</a></li>
+                <li><a href="/wa/visitor/pharmacy/prescription-savings/dose-optimization/">Dose Optimization</a></li>
+                <li><a href="/wa/visitor/pharmacy/prescription-savings/tablet-splitting/">Tablet Splitting Program</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Member Services<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">My Premera Plan</li>
+                <li><a href="/wa/member/plan-purchase/">Renew My Plan</a></li>
+                <li><a href="/wa/member/my-premera-plan/benefit-summary/">Benefit Summary</a></li>
+                <li><a href="/wa/member/my-premera-plan/understanding-my-health-plan/">Understanding My Health Plan</a></li>
+                <li><a href="/wa/member/my-premera-plan/make-sure-you-are-covered/">Make Sure You’re Covered</a></li>
+                <li><a href="/wa/member/my-premera-plan/coverage-while-traveling/">Coverage While Traveling</a></li>
+                <li><a href="/wa/member/my-premera-plan/about-personal-funding-accounts/">Personal Funding Accounts</a></li>
+                <li class="nav-header">Manage My Account</li>
+                <li><a href="/wa/member/manage-my-account/forms/">Forms</a></li>
+                <li><a href="/wa/member/manage-my-account/claims/">Claims</a></li>
+                <li><a href="/wa/member/manage-my-account/pay-my-bill/">Pay My Bill</a></li>
+                <li><a href="/wa/member/manage-my-account/frequently-asked-questions/">Our Most Frequently Asked Questions</a></li>
+                <li><a href="/wa/member/manage-my-account/spending-activity-report/">Spending Activity Report</a></li>
+                <li><a href="/wa/member/manage-my-account/explanation-of-benefits/">Explanation of Benefits</a></li>
+                <li><a href="/wa/member/manage-my-account/go-paperless/">Go Paperless</a></li>
+                <li><a href="/wa/member/manage-my-account/understanding-your-id-card/">ID Cards</a></li>
+                <li class="nav-header">Stay Healthy</li>
+                <li><a href="/wa/member/stay-healthy/preventive-health/">Preventive Health</a></li>
+                <li><a href="/wa/member/stay-healthy/member-discounts/">Member Discounts</a></li>
+                <li><a href="/wa/member/stay-healthy/medical-library/">Medical Library</a></li>
+                <li><a href="http://c6.go2dental.com/content/" onclick="trackOutboundLink('http://c6.go2dental.com/content/');null">Dental Health Center</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Healthsource Blog<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/wa/visitor/healthsource/">View All</a></li>
+                <li><a href="/wa/visitor/healthsource/affording-insurance/">Affording Insurance</a></li>
+                <li><a href="/wa/visitor/healthsource/community/">Community</a></li>
+                <li><a href="/wa/visitor/healthsource/getting-care/">Getting Care</a></li>
+                <li><a href="/wa/visitor/healthsource/health-and-fitness/">Health and Fitness</a></li>
+                <li><a href="/wa/visitor/healthsource/seniors/">Seniors</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+
+    <div id="content-area">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-9">
+          <div class="pull-right">
+
+            Choose your location:&nbsp;<a title="Alaska" href="/setgeo.aspx?geo=ak">AK</a>
+            <span>&nbsp;-&nbsp;</span>
+            <span title="Washington and other states" class=" highlight">WA</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div role="main" class="col-sm-9 col-md-9 col-lg-10">
+            <div id="content-main">
+              <div class="well">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img src="img/pregnant.jpg" alt="pregnant woman with toddler" title="pregnant woman with toddler" class="img-responsive">
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Get covered by Washington’s #1 health plan</h4>
+                    <p>
+                      <jumbotrondescription>Individual and family plans are available until January 31. Enroll today!</jumbotrondescription>
+                    </p>
+                    <a target="_blank" class="btn btn-primary" role="button" href="http://shop.premera.com/wa/shop/">Compare plans</a></div>
+                </div>
+                <small class="pull-right no-padding">Source: <a href="http://kff.org/other/state-indicator/market-share-and-enrollment-of-largest-three-insurers-individual-market/" target="_blank" onclick="trackOutboundLink('http://kff.org/other/state-indicator/market-share-and-enrollment-of-largest-three-insurers-individual-market/');null">Kaiser Family Foundation</a></small>
+              </div>
+
+
+              <div class="row">
+                <div class="col-sm-12 col-md-4">
+
+                  <div class="portals"><a href="/wa/provider/" class="btn btn-block btn-default"><i class="icon-aid icon-large"></i>I'm a provider</a>
+                  </div>
+
+                </div>
+                <div class="col-sm-12 col-md-4">
+
+                  <div class="portals"><a href="/wa/employer/" class="btn btn-block btn-default"><i class="icon-office icon-large"></i>I'm an employer</a></div>
+
+                </div>
+                <div class="col-sm-12 col-md-4">
+
+                  <div class="portals"><a href="/wa/producer/" class="btn btn-block btn-default"><i class="icon-briefcase icon-large"></i>I'm a producer</a></div>
+
+                </div>
+              </div>
+
+
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">I want to</div>
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                          <ul class="unstyled">
+                            <li>
+                              <a href="/wa/member/manage-my-account/pay-my-bill/">Pay my monthly premium</a>&nbsp;</li>
+                            <li>
+                              <a href="/wa/member/my-premera-plan/make-sure-you-are-covered/">Find out what my plan covers</a>&nbsp;</li>
+                          </ul>&nbsp;</div>
+
+                        <div class="col-sm-12 col-md-4">
+                          <ul class="unstyled">
+                            <li>
+                              <a href="/wa/member/manage-my-account/claims/">Submit a new claim</a>&nbsp;</li>
+                            <li>
+                              <a title="Prior Authorization" href="/wa/visitor/shop-for-plans/individual-and-family-plans/health-plans/">Get help choosing a plan</a>&nbsp;</li>
+                          </ul>&nbsp;</div>
+
+                        <div class="col-sm-12 col-md-4">
+                          <ul class="unstyled padding-bottom">
+                            <li>
+                              <a href="/wa/visitor/shop-for-plans/individual-and-family-plans/frequently-asked-questions/">View Premera’s FAQs</a>&nbsp;</li>
+                            <li>
+                              <a href="/wa/visitor/contact-us/">Contact us</a>
+                            </li>
+                          </ul>&nbsp; </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div id="content-promotional" class="col-sm-3 col-md-3 col-lg-2">
+            <div>
+              <h4>Medicare Advantage</h4>
+              <p>Get all your Medicare benefits in one easy-to-use plan.</p><a class="call-to-action" href="/medicare-advantage/">Shop for a plan</a>
+            </div>
+
+            <div>
+              <h4>Find help here</h4>
+              <p>Our FAQs cover open enrollment, monthly billing, and more</p><a class="call-to-action" href="/wa/member/manage-my-account/frequently-asked-questions/">Get answers</a>
+            </div>
+
+            <div>
+              <h4>Member sites</h4>
+              <p></p>
+              <ul class="unstyled">
+                <li><a href="/fep/" target="FEP">Federal Employee Program (FEP)</a></li>
+                <li><a href="/starbucks/" target="">Starbucks</a></li>
+                <li><a href="/university-of-alaska/" target="">University of Alaska</a></li>
+                <li><a href="/wea/" target="">Washington Education Association (WEA)</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div id="navigation-home">
+      <div class="row">
+        <div class="col-md-offset-6 col-md-6 col-xs-12">
+          <div class="pull-right">
+            <div>
+              <a title="Facebook" href="//www.facebook.com/premerabluecross" onclick="trackOutboundLink('https://www.facebook.com/premerabluecross');null">
+                <span class="icon-large icon-facebook"></span>
+              </a>
+              <a title="Twitter" href="//twitter.com/premera" onclick="trackOutboundLink('https://twitter.com/premera');null">
+                <span class="icon-large icon-twitter"></span>
+              </a>
+              <a title="YouTube" href="//www.youtube.com/user/premerabluecross" onclick="trackOutboundLink('https://www.youtube.com/user/premerabluecross');null">
+                <span class="icon-large icon-youtube2"></span>
+              </a>
+              <a title="PremeraNews" href="/wa/visitor/healthsource/">
+                <span class="icon-large icon-bubbles"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="row">
+        <nav id="navigation-footer-primary" class="small col-md-12">
+          <ul class="unstyled">
+            <li><a href="/wa/visitor/about-premera/">About Premera</a></li>
+            <li class="visitor"><a href="/wa/visitor/careers/">Careers</a></li>
+            <li><a href="/wa/provider/reference/medical-policies/">Medical Policies</a></li>
+            <li class="visitor"><a href="/wa/visitor/find-a-doctor/24-hour-nurseline/">24-Hour NurseLine</a></li>
+            <li class="member"><a href="/portals/member/external/nurseline/">24-Hour NurseLine</a></li>
+            <li class="visitor"><a href="/wa/visitor/contact-us/">Contact Us</a></li>
+            <li class="member"><a href="/Portals/Member/External/ContactUs/">Contact Us</a></li>
+            <li><a href="/wa/visitor/privacy-policy/">Notice of Privacy Practices </a></li>
+            <li class="visitor"><a href="/wa/visitor/privacy-policy-espanol/"> Aviso de Practicas de Privacidad</a></li>
+            <li class="visitor"><a href="/documents/030553.pdf" onclick="ga('send', 'event', 'file' , 'pdf','https://www.premera.com/documents/030553.pdf');null">Code of Conduct</a></li>
+            <li><a href="/wa/visitor/terms-and-conditions/">Terms &amp; Conditions</a></li>
+            <li><a href="/wa/visitor/fraud-and-abuse/">Fraud &amp; Abuse</a></li>
+            <li class="visitor"><a href="/wa/visitor/web-help/">Web Help</a></li>
+            <li class="visitor"><a href="/wa/visitor/legal-notices/">Legal Notice on Neurodevelopmental Therapies</a></li>
+            <li class="visitor"><a href="https://connect.premera.com">PremeraConnect</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p></p>
+          <div>
+
+          </div>
+          <p></p>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <span id="ekDate">© 2015&nbsp;</span>Premera Blue Cross is an Independent Licensee of the Blue Cross Blue Shield Association serving businesses and residents of Alaska and Washington state, excluding Clark County.
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
