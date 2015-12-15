@@ -47,13 +47,6 @@
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0; }
 
-/* UPDATE - portals
-    Updates to the existing portals links on the home page
-*/
-
-
-
-
 
 /* UPDATE - footer
     Updates to current footer styles
@@ -65,8 +58,8 @@
     margin: 0;
     padding: 16px; }
 
-.footer-sitemap { background-color: #555; }
-  .footer-sitemap h3 { color: #ddd; font-weight: bold; }
+.footer-sitemap { background-color: #1d374b; }
+  .footer-sitemap h3 { color: #7dcdf1; font-weight: bold; }
   .footer-sitemap a { color: #fff; }
   .footer-sitemap li {
     line-height: 1.2;
@@ -77,8 +70,8 @@
   margin-right: 8px; }
   .footer-social-links a:last-child { margin-right: 0; }
   .footer-social-links a:hover { text-decoration: none; }
-  .footer-social-links .icon-facebook:hover { color: #3B5998; }
-  .footer-social-links .icon-twitter:hover { color: #4099FF; }
-  .footer-social-links .icon-youtube2:hover { color: #E52D27; }
-  .footer-social-links .icon-bubbles:hover { color: #009BDA; }
   .footer-social-links .icon-large { transition: color .2s; }
+  .footer-social-links .icon-facebook:hover { color: #3B5998; }
+  .footer-social-links .icon-twitter:hover  { color: #4099FF; }
+  .footer-social-links .icon-youtube2:hover { color: #E52D27; }
+  .footer-social-links .icon-bubbles:hover  { color: #009BDA; }
